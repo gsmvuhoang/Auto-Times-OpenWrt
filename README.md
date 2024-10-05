@@ -32,9 +32,14 @@ Ví dụ dùng mạng Viettel:
 
 Nhập lệnh bên dưới vào LuCI -> System -> Scheduled Tasks để kiểm tra kết nối cứ sau 1 giờ, sau đó khởi động lại vpn nếu không có kết nối:
 
+Ví dụ dùng tên miền google:
+```
+0 * * * * /usr/bin/time_open_wrt www.google.com cron
+```
+
 Ví dụ dùng mạng Viettel:
 ```
-0 * * * * /usr/bin/viet m.tv360.vn cron
+0 * * * * /usr/bin/time_open_wrt m.tv360.vn cron
 ```
 Nhập lệnh bên dưới vào LuCI -> System -> Scheduled Tasks để auto restart router lúc 3h sáng:
 
@@ -43,12 +48,12 @@ Ví dụ dùng mạng Viettel:
 0 3 * * * /bin/sh -c "reboot"
 ```
 
-Dán lệnh bên dưới để cập nhập tập lệnh:
+Để update tập lệnh hãy thực hiện lệnh bên dưới:
 ```
 /usr/bin/time_open_wrt update
 ```
 
-# Mọi thắc mắc vui lòng liên hệ: 07867.07867
+# Mọi thắc mắc vui lòng liên hệ: gsm.vuhoang
 
 Phát triển
 Tập lệnh và codes của AlkhaNet by Teguh Surya Mungaran và được tùy biến lại bởi gsm.vuhoang
