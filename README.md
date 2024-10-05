@@ -43,7 +43,7 @@ Ví dụ dùng mạng Viettel:
 0 3 * * * /bin/sh -c "reboot"
 ```
 
-Để update tệp lệnh hãy thực hiện lệnh dưới:
+Dán lệnh bên dưới để cập nhập tập lệnh:
 ```
 /usr/bin/time_open_wrt update
 ```
