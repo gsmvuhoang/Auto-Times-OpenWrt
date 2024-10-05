@@ -21,12 +21,17 @@ wget --no-check-certificate "https://raw.githubusercontent.com/gsmvuhoang/Auto-T
 
 Nhập lệnh bên dưới vào LuCI -> System -> Startup -> Local Startup:
 
+Ví dụ dùng mạng tên miền google:
+```
+/usr/bin/time_open_wrt www.google.com
+```
+
 Ví dụ dùng mạng Viettel:
 ```
 /usr/bin/time_open_wrt m.tv360.vn
 ```
 
-Nhập lệnh bên dưới vào LuCI -> System -> Scheduled Tasks để auto restart VPN và cập nhật giờ đc lặp lại trong 1 giờ:
+Nhập lệnh bên dưới vào LuCI -> System -> Scheduled Tasks để kiểm tra kết nối cứ sau 1 giờ, sau đó khởi động lại vpn nếu không có kết nối:
 
 Ví dụ dùng mạng Viettel:
 ```
