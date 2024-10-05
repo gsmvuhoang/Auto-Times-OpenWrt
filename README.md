@@ -11,9 +11,6 @@ Hỗ trợ cài đặt múi giờ cho VPN: OpenClash ,Passwall, ShadowsocksR, Sh
 Sử dụng mặc định - Sử dụng cơ bản
 
 Cài đặt các gói yêu cầu trước bằng cách mở Terminal hoặc PuTTY:
-```
-https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
-```
 
 ```
 opkg update && opkg install curl wget
