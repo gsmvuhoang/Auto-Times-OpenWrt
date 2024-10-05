@@ -8,8 +8,6 @@ Cài đặt múi giờ tự động tuân theo LuCI - System - System - Timezone
 
 Hỗ trợ cài đặt múi giờ cho VPN: OpenClash ,Passwall, ShadowsocksR, ShadowsocksR++, V2ray, V2rayA, Xray, Libernet, Xderm Mini, Wegare STL
 
-Sử dụng mặc định - Sử dụng cơ bản
-
 Cài đặt các gói yêu cầu trước bằng cách mở Terminal hoặc PuTTY:
 
 ```
