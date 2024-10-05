@@ -10,7 +10,7 @@ Hỗ trợ cài đặt múi giờ cho VPN: OpenClash ,Passwall, ShadowsocksR, Sh
 
 Sử dụng mặc định - Sử dụng cơ bản
 
-Cài đặt các gói yêu cầu trước bằng cách mở terminal: opkg update && opkg install curl wget
+Cài đặt các gói yêu cầu trước bằng cách mở terminal: "opkg update && opkg install curl wget"
 
 Dán lệnh bên dưới để cài đặt tập lệnh time_open_wrt: wget --no-check-certificate "https://raw.githubusercontent.com/huytran123/update_time_wrt/main/time_open_wrt" -O /usr/bin/time_open_wrt && chmod +x /usr/bin/time_open_wrt
 
