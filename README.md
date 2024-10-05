@@ -22,7 +22,7 @@ wget --no-check-certificate "https://raw.githubusercontent.com/gsmvuhoang/Auto-T
 
 Nhập lệnh bên dưới vào LuCI -> System -> Startup -> Local Startup:
 
-Ví dụ dùng mạng tên miền google:
+Ví dụ dùng tên miền google:
 ```
 /usr/bin/time_open_wrt www.google.com
 ```
