@@ -42,8 +42,6 @@ Ví dụ dùng mạng Viettel:
 0 * * * * /usr/bin/time_open_wrt m.tv360.vn cron
 ```
 Nhập lệnh bên dưới vào LuCI -> System -> Scheduled Tasks để auto restart router lúc 3h sáng:
-
-Ví dụ dùng mạng Viettel:
 ```
 0 3 * * * /bin/sh -c "reboot"
 ```
