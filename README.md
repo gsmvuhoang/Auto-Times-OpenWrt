@@ -21,10 +21,20 @@ wget --no-check-certificate "https://raw.githubusercontent.com/gsmvuhoang/Auto-T
 
 Nhập lệnh bên dưới vào LuCI -> System -> Startup -> Local Startup:
 
-Ví dụ dùng mạng Viettel: /usr/bin/time_open_wrt m.tv360.vn
+Ví dụ dùng mạng Viettel:
+```
+/usr/bin/time_open_wrt m.tv360.vn
+```
+
 Nhập lệnh bên dưới vào LuCI -> System -> Scheduled Tasks để auto restart VPN và cập nhật giờ đc lặp lại trong 1 giờ:
 
-Ví dụ dùng mạng Viettel: 0 * * * * /usr/bin/viet m.tv360.vn cron
+Ví dụ dùng mạng Viettel:
+```
+0 * * * * /usr/bin/viet m.tv360.vn cron
+```
 Nhập lệnh bên dưới vào LuCI -> System -> Scheduled Tasks để auto restart router lúc 3h sáng:
 
-Ví dụ dùng mạng Viettel: 0 3 * * * /bin/sh -c "reboot"
+Ví dụ dùng mạng Viettel:
+```
+0 3 * * * /bin/sh -c "reboot"
+```
