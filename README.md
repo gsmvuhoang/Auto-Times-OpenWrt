@@ -49,3 +49,8 @@ Ví dụ dùng mạng Viettel:
 ```
 /usr/bin/time_open_wrt update
 ```
+
+# Mọi thắc mắc vui lòng liên hệ: 07867.07867
+
+Phát triển
+Tập lệnh và codes của AlkhaNet by Teguh Surya Mungaran và được tùy biến lại bởi gsm.vuhoang
