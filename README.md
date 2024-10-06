@@ -54,4 +54,4 @@ Nhập lệnh bên dưới vào LuCI -> System -> Scheduled Tasks để auto res
 # Mọi thắc mắc vui lòng liên hệ: gsm.vuhoang
 
 Phát triển
-Tập lệnh và codes của AlkhaNet by Teguh Surya Mungaran và được tùy biến lại bởi gsm.vuhoang
+tập lệnh và code của AlkhaNet by Teguh Surya Mungaran và được tùy biến lại bởi gsm.vuhoang
